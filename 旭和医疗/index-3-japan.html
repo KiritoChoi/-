@@ -4,6 +4,8 @@
 <meta charset="utf-8">
 <title>日本医疗</title>
 <link rel="stylesheet" type="text/css" href="css/style-3-japan.css">
+<link rel="stylesheet" type="text/css" href="css/style1-window .css">
+<script type="text/javascript" src="js/jquery-1.8.2.min.js"></script>
 </head>
 
 <body>
@@ -11,13 +13,13 @@
 	<div class="con box">
 		<div class="logo fl"><a href="#"><img src="images/1/logo.png" width="174" height="43"></a></div>		
 		<ul class="fl">
-			<li><a href="index.html">首页</a></li>
-			<li class="on"><a href="index-3-japan.html">日本医疗</a></li>
-			<li><a href="index-2-Europe.html">欧洲医疗</a></li>
+			<li><a href="#">首页</a></li>
+			<li class="on"><a href="#">日本医疗</a></li>
+			<li><a href="#">欧洲医疗</a></li>
 			<li><a href="#">美国医疗</a></li>
-			<li><a href="index-4-medical case.html">医疗案例</a></li>
-			<li><a href="index-6-join.html">商业合作</a></li>
-			<li><a href="index-5-about us.html">关于我们</a></li>			
+			<li><a href="#">医疗案例</a></li>
+			<li><a href="#">商业合作</a></li>
+			<li><a href="#">关于我们</a></li>				
 		</ul>		
 	</div>
 </header>
@@ -168,7 +170,7 @@
 		<ul class="fr">
 			<li>￥15000/天</li>
 			<li>20天</li>
-			<li>立即预订</li>
+			<li><a href="javascript:;" class="yd_btn">立即预订</a></li>
 		</ul>
 		<dl class="fl">
 			<dt class="fl"><a href="#"><img src="images/2/yy (1).png"></a></dt>
@@ -184,7 +186,7 @@
 		<ul class="fr">
 			<li>￥15000/天</li>
 			<li>20天</li>
-			<li>立即预订</li>
+			<li><a href="javascript:;" class="yd_btn">立即预订</a></li>
 		</ul>
 		<dl class="fl">
 			<dt class="fl"><a href="#"><img src="images/2/yy (2).png"></a></dt>
@@ -200,7 +202,7 @@
 		<ul class="fr">
 			<li>￥15000/天</li>
 			<li>20天</li>
-			<li>立即预订</li>
+			<li><a href="javascript:;" class="yd_btn">立即预订</a></li>
 		</ul>
 		<dl class="fl">
 			<dt class="fl"><a href="#"><img src="images/2/yy (2).png"></a></dt>
@@ -216,7 +218,7 @@
 		<ul class="fr">
 			<li>￥15000/天</li>
 			<li>20天</li>
-			<li>立即预订</li>
+			<li><a href="javascript:;" class="yd_btn">立即预订</a></li>
 		</ul>
 		<dl class="fl">
 			<dt class="fl"><a href="#"><img src="images/2/yy (2).png"></a></dt>
@@ -232,7 +234,7 @@
 		<ul class="fr">
 			<li>￥15000/天</li>
 			<li>20天</li>
-			<li>立即预订</li>
+			<li><a href="javascript:;" class="yd_btn">立即预订</a></li>
 		</ul>				
 	</div>
 </div>
@@ -265,8 +267,42 @@
 				<dd class="fl"><h4>客服热线</h4><p>400-880-6688</p></dd>
 			</dl>			
 		</div>
-	</div>                       
-	
+	</div>  
 </footer>
+<!--footer-->
+
+<script>
+$(function(){
+ 
+ $(".yd_btn").click(function(){
+  
+  $(".window").show();
+  $(".window").height($(document).height());
+  $(".window_con").slideDown();	 
+ })	
+ 
+ $(".close").click(function(){
+  
+  $(".window").fadeOut();
+  $(".window_con").slideUp();	 
+ })	
+ 
+})
+</script> 
+
+<div class="window"></div>
+<div class="window_con"><a href="javascript:;" class="close"><i class="fr"></i></a>
+  <ul>
+	<h1>立即预定</h1>	
+		<li><input type="text" placeholder="选择医疗区域"></li>	
+		<li><input type="text" class="name" placeholder="姓名"></li>			
+		<li><input type="text" class="password" placeholder="电话"></li>
+		<li><input type="text" placeholder="邮箱"></li>
+<!--			<li><input type="text" placeholder="您的留言"></li>-->
+		<li><textarea placeholder="您的留言" rows="6" cols="20"></textarea></li>
+		<li><button>提交预定</button></li>
+	</ul>	
+</div>
+<!--弹窗-->
 </body>
 </html>

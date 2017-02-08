@@ -1,0 +1,66 @@
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,section, article, aside, header, footer, nav, dialog, figure,menu,hgroup,iframe{ margin:0; padding:0; border:0; }
+body{ font-family:"Microsoft YaHei", "Lantinghei SC", "Open Sans", Arial, "Hiragino Sans GB", "微软雅黑", "STHeiti", "WenQuanYi Micro Hei", SimSun, sans-serif; font-size:12px; line-height:24px; background:#fff;  color:#000; }
+
+input,textarea{ resize:none; font-family:"Microsoft YaHei"; background: #fff; border: 0;}
+img{ border:none; vertical-align:middle;}
+ul,li{ list-style:none;}
+a{ text-decoration:none; color:#000; outline:none;}
+a:hover{ color:#db323b;}
+input:focus,textarea:focus{ outline:none;}
+
+h1,h2,h3,h4{ font-weight: normal;}
+.box{ width:1000px; margin:0 auto;}
+.fl{ float:left;}
+.fr{ float:right;}
+.ow{ overflow: hidden;}
+.cl{ clear:both;}
+/*公共样式*/
+
+header{ width:100%; }
+header .con{min-width:1000px;}
+header .con .logo{ margin-top:22px;}
+header .con ul{ margin-left: 83px;}
+header .con ul li{ float: left; line-height: 90px; font-size: 14px; text-align: center;}
+header .con ul li a{ color: #444444; display: block; /*padding: 0 31px;*/ width: 90px; height: 90px;}
+header .con ul li a:hover{ background:#1ab4c3; color: #fff;}
+header .con ul li.on{ background: #1ab4c3;}
+header .con ul li.on a{ color: #fff;}
+/*header*/
+.banner{ width: 100%;}
+.banner_con{ height: 410px; min-width: 1000px; margin: 0 auto; position: relative;}
+.banner_con img{ position: absolute; left:50%; margin-left: -1000px;}
+/*banner*/
+
+.about_wrapper{ width: 100%;}
+.about{ padding: 50px 0 6px 0;}
+.about{ text-align: center; width: 1000px;}
+.about p{ margin: 0 auto; width: 692px; font-size: 20px; color:#8394a6; line-height: 36px;}
+.about .title2{ margin-top: 50px;}
+.about .video{ width: 1000px; margin-top: 30px;}
+.about .video video{ margin: 0 158px; }
+.about ul{ padding: 44px 0 75px 0; overflow: hidden;}
+.about ul li{ float: left; overflow: hidden;}
+.about ul li:nth-child(1),.about ul li:nth-child(3),.about ul li:nth-child(4),.about ul li:nth-child(6){ width: 335px; height: 220px;}
+.about ul li:nth-child(2),.about ul li:nth-child(5){ width: 330px; height: 220px;}
+.about ul li:nth-child(3n){ float: right;}
+
+/*about*/
+
+.contact_wrapper{ background: #f0f3f6; width: 100%; overflow: hidden;}
+.contact{ padding-top: 79px;}
+.contact dl{ text-align: center; width: 156px; float: left; margin: 0 16px 60px 64px;}
+.contact dl dt{ width: 110px; height: 110px; border:3px #fff solid; border-radius: 50%; overflow: hidden; margin: 0 auto;}
+.contact dl dd{ font-size: 14px; line-height: 22px; color: #666; margin-top: 20px;}
+.contact_wrapper .bottom img{  margin-left: 431px;}
+.contact_wrapper .bottom p{ text-align: center; font-size: 22px; color: #8394a6; padding: 15px 0 100px 0;}
+
+footer{ background:#1ab4c3; width: 100%;  overflow: hidden;}
+.footer_con{ padding: 55px 0 105px 0;}
+.footer_con .left h4 { line-height: 12px; padding-bottom: 6px;}
+.footer_con .left h4 a,.footer_con .left p{ color: #fff; }
+.footer_con .left h4 a:hover{ color: #147c8f; text-decoration: underline;}
+.footer_con .left h4 span{ width: 1px; height: 11px; background: #fff; display: inline-block; vertical-align: -1px; margin: 0 11px;}
+.footer_con .right dl dd{ margin-left: 6px;}
+.footer_con .right dl dd h4{ font-style:italic; color: #fff; line-height: 12px;}
+.footer_con .right dl dd p{ font-style:italic; color: #fff; font-size: 20px;}
+.footer_con .right dl dt span{ background: url(../images/icon.png) -36px 0 no-repeat; width: 34px; height: 34px; display: inline-block;}

@@ -1,0 +1,118 @@
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,section, article, aside, header, footer, nav, dialog, figure,menu,hgroup,iframe{ margin:0; padding:0; border:0; }
+body{ font-family:"Microsoft YaHei", "Lantinghei SC", "Open Sans", Arial, "Hiragino Sans GB", "微软雅黑", "STHeiti", "WenQuanYi Micro Hei", SimSun, sans-serif; font-size:12px; line-height:24px; background:#fff;  color:#000; }
+
+input,textarea{ resize:none; font-family:"Microsoft YaHei"; background: #fff; border: 0;}
+img{ border:none; vertical-align:middle;}
+ul,li{ list-style:none;}
+a{ text-decoration:none; color:#000; outline:none;}
+a:hover{ color:#db323b;}
+input:focus,textarea:focus{ outline:none;}
+
+h1,h2,h3,h4{ font-weight: normal;}
+.box{ width:1000px; margin:0 auto;}
+.fl{ float:left;}
+.fr{ float:right;}
+.ow{ overflow: hidden;}
+.cl{ clear:both;}
+
+/*公共样式*/
+header{ width:100%; }
+header .con{min-width:1000px;}
+header .con .logo{ margin-top:22px;}
+header .con ul{ margin-left: 83px;}
+header .con ul li{ float: left; line-height: 90px; font-size: 14px; text-align: center;}
+header .con ul li a{ color: #444444; display: block; /*padding: 0 31px;*/ width: 90px; height: 90px;}
+header .con ul li a:hover{ background:#1ab4c3; color: #fff;}
+header .con ul li.on{ background: #1ab4c3;}
+header .con ul li.on a{ color: #fff;}
+/*header*/
+.banner{ width: 100%;}
+.banner_con{ height: 330px; min-width: 1000px; margin: 0 auto; position: relative;}
+.banner_con img{ position: absolute; left:50%; margin-left: -1000px;}
+/*banner*/
+
+.examination_wrapper{ width: 100%;}
+.examination{ padding: 50px 0 6px 0;}
+.examination .title{ text-align: center;}
+.examination .title h1{ font-size: 32px; color:#1ab4c3; line-height: 50px;}
+.examination .title h2{ font-size: 16px; color:#c3c3c3; font-family: Arial; text-transform:uppercase;}
+.examination .title p{ width: 810px; font-size: 14px; color: #666; line-height: 26px; margin: 0 auto; padding:6px 0 43px 0;}
+.examination dl{ width: 280px; height: 236px; margin-bottom: 74px;}
+.examination dl:nth-of-type(2){ margin: 0 80px;}
+.examination dl:nth-of-type(5){ margin: 0 80px;}
+.examination dl dt{ width: 280px; height: 152px; overflow:hidden; }
+.examination dl dd h3{ font-size: 16px; color: #2e2e2e;  margin: 13px 0 4px 0;}
+.examination dl dd p{ color: #666; line-height: 24px;}
+/*examination*/
+.procedure_wrapper{ width: 100%; background: #1ab4c3; overflow: hidden;}
+.procedure .title{ text-align: center; color: #fff;}
+.procedure .title h1{ font-size: 32px; line-height: 50px;}
+.procedure .title h2{ font-size: 16px; font-family: Arial; margin-bottom: 40px; text-transform:uppercase;}
+.procedure .process{ background: url(../images/6/process_bg.png) no-repeat; width: 850px; height: 470px; margin:110px 0 0 121px; position: relative;}
+.procedure .process dl{ text-align: center; width: 84px; }
+.procedure .process dl dt{ width: 80px; height: 80px; border-radius: 50%; background: #fff;}
+.procedure .process dl dt:hover{  width: 80px; height: 80px; border-radius: 50%; background: #97f6ff;}
+.procedure .process dl dt i{ display: inline-block;}
+.procedure .process dl dd{ font-size: 14px; color: #fff; padding-top: 6px;}
+.procedure .process dl:nth-child(1){ position: absolute; left: -40px; top: -72px;}
+.procedure .process dl:nth-child(1) dt i{ width: 30px; height: 38px; background: url(../images/icon.png) -73px 0 no-repeat; vertical-align: -40px;}
+.procedure .process dl:nth-child(1) dt i:hover{ width: 30px; height: 38px; background: url(../images/icon.png) -73px -48px no-repeat; vertical-align: -40px;}
+.procedure .process dl:nth-child(2){ position: absolute; left: -40px; top: 74px;}
+.procedure .process dl:nth-child(2) dt i{ width: 38px; height: 36px; background: url(../images/icon.png) -106px 0 no-repeat; vertical-align: -42px;}
+.procedure .process dl:nth-child(2) dt i:hover{ width: 38px; height: 36px; background: url(../images/icon.png) -106px -48px no-repeat; vertical-align: -42px;}
+.procedure .process dl:nth-child(3){ position: absolute; left: 183px; top: 74px;}
+.procedure .process dl:nth-child(3) dt i{ width: 39px; height: 39px; background: url(../images/icon.png) -147px 0 no-repeat; vertical-align: -42px;}
+.procedure .process dl:nth-child(3) dt i:hover{ width: 39px; height: 39px; background: url(../images/icon.png) -147px -48px no-repeat; vertical-align: -42px;}
+.procedure .process dl:nth-child(4){ position: absolute; left: 423px; top: 74px;}
+.procedure .process dl:nth-child(4) dt i{ width: 40px; height: 29px; background: url(../images/icon.png) -189px 0 no-repeat; vertical-align: -36px;}
+.procedure .process dl:nth-child(4) dt i:hover{ width: 40px; height: 29px; background: url(../images/icon.png) -189px -48px no-repeat; vertical-align: -36px;}
+.procedure .process dl:nth-child(5){ position: absolute; left: 643px; top: 74px;}
+.procedure .process dl:nth-child(5) dt i{ width: 40px; height: 40px; background: url(../images/icon.png) -234px 0 no-repeat; vertical-align: -42px;}
+.procedure .process dl:nth-child(5) dt i:hover{ width: 40px; height: 40px; background: url(../images/icon.png) -234px -48px no-repeat; vertical-align: -42px;}
+.procedure .process dl:nth-child(6){ position: absolute; left: 643px; top: 255px;}
+.procedure .process dl:nth-child(6) dt i{ width: 43px; height: 32px; background: url(../images/icon.png) -279px 0 no-repeat; vertical-align: -42px;}
+.procedure .process dl:nth-child(6) dt i:hover{ width: 43px; height: 32px; background: url(../images/icon.png) -279px -48px no-repeat; vertical-align: -42px;}
+.procedure .process dl:nth-child(7){ position: absolute; left: 423px; top: 255px;}
+.procedure .process dl:nth-child(7) dt i{ width: 43px; height: 43px; background: url(../images/icon.png) -332px 0 no-repeat; vertical-align: -45px;}
+.procedure .process dl:nth-child(7) dt i:hover{ width: 43px; height: 43px; background: url(../images/icon.png) -332px -48px no-repeat; vertical-align: -45px;}
+.procedure .process dl:nth-child(8){ position: absolute; left: 183px; top: 255px;}
+.procedure .process dl:nth-child(8) dt i{ width: 42px; height: 42px; background: url(../images/icon.png) -382px 0 no-repeat; vertical-align: -42px;}
+.procedure .process dl:nth-child(8) dt i:hover{ width: 42px; height: 42px; background: url(../images/icon.png) -382px -48px no-repeat; vertical-align: -42px;}
+.procedure .process dl:nth-child(9){ position: absolute; left: -43px; top: 255px;}
+.procedure .process dl:nth-child(9) dt i{ width: 31px; height: 44px; background: url(../images/icon.png) -432px 0 no-repeat; vertical-align: -45px;}
+.procedure .process dl:nth-child(9) dt i:hover{ width: 31px; height: 44px; background: url(../images/icon.png) -432px -48px no-repeat; vertical-align: -45px;}
+
+/*procedure*/
+
+.hospital_wrapper{ width: 100%;}
+.hospital{padding: 70px 0 100px 0;}
+.hospital .title{ text-align: center;}
+.hospital .title h1{ font-size: 32px; color:#1ab4c3; line-height: 50px;}
+.hospital .title h2{ font-size: 16px; color:#c3c3c3; font-family: Arial; margin-bottom: 40px; text-transform:uppercase;}
+.hospital dl{ padding-bottom: 40px;}
+.hospital dl dt{ width: 280px; height: 170px;}
+.hospital dl dd{ width: 400px; margin-left: 32px;}
+.hospital dl dd h3{ font-size: 16px; color: #2e2e2e; line-height: 18px;}
+.hospital dl dd p{ color: #666; line-height: 24px; padding: 7px 0 23px 0;}
+.hospital dl dd dl{ width: 400px; height: 50px; float: right; }
+.hospital dl dd dl dt{ width: 50px; height: 50px; overflow:hidden; border-radius:50%;}
+.hospital dl dd dl dd{ width:328px; height: 36px; background:#eef2f6; border-radius: 3px;  position:relative; top:-43px; }
+.hospital dl dd dl dd:after{ content:""; width:0px; height:0px; border-left:9px solid transparent; border-right:0 solid transparent; border-bottom:7px solid #eef2f6; position:absolute; left:-9px;top:4px; } 
+.hospital dl dd dl dd p{ font-size: 14px; color: #2e2e2e; margin-left: 16px;}
+.hospital ul{ text-align: center; margin:30px 63px 0 0;}
+.hospital ul li:nth-child(1){ font-size: 16px; color: #1ab4c3;}
+.hospital ul li:nth-child(2){ font-size: 14px; color: #1ab4c3;}
+.hospital ul li:nth-child(3){ font-size: 14px; color: #fff; line-height: 32px; background: #1ab4c3; width: 114px; height: 32px; border-radius: 2px; margin-top: 13px;     cursor: pointer;}
+.hospital ul li:nth-child(3):hover{ background: #147c8f;}
+/*hospital*/
+
+footer{ background:#1ab4c3; width: 100%;  overflow: hidden;}
+.footer_con{ padding: 55px 0 105px 0;}
+.footer_con .left h4 { line-height: 12px; padding-bottom: 6px;}
+.footer_con .left h4 a,.footer_con .left p{ color: #fff; }
+.footer_con .left h4 a:hover{ color: #147c8f; text-decoration: underline;}
+.footer_con .left h4 span{ width: 1px; height: 11px; background: #fff; display: inline-block; vertical-align: -1px; margin: 0 11px;}
+.footer_con .right dl dd{ margin-left: 6px;}
+.footer_con .right dl dd h4{ font-style:italic; color: #fff; line-height: 12px;}
+.footer_con .right dl dd p{ font-style:italic; color: #fff; font-size: 20px;}
+.footer_con .right dl dt span{ background: url(../images/icon.png) -36px 0 no-repeat; width: 34px; height: 34px; display: inline-block;}

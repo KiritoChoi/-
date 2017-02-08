@@ -1,0 +1,75 @@
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,section, article, aside, header, footer, nav, dialog, figure,menu,hgroup,iframe{ margin:0; padding:0; border:0; }
+body{ font-family:"Microsoft YaHei", "Lantinghei SC", "Open Sans", Arial, "Hiragino Sans GB", "微软雅黑", "STHeiti", "WenQuanYi Micro Hei", SimSun, sans-serif; font-size:12px; line-height:24px; background:#fff;  color:#000; }
+
+input,textarea{ resize:none; font-family:"Microsoft YaHei"; background: #fff; border: 0;}
+img{ border:none; vertical-align:middle;}
+ul,li{ list-style:none;}
+a{ text-decoration:none; color:#000; outline:none;}
+a:hover{ color:#1ab4c3;}
+input:focus,textarea:focus{ outline:none;}
+
+h1,h2,h3,h4{ font-weight: normal;}
+.box{ width:1000px; margin:0 auto;}
+.fl{ float:left;}
+.fr{ float:right;}
+.ow{ overflow: hidden;}
+.cl{ clear:both;}
+/*公共样式*/
+
+header{ width:100%; }
+header .con{min-width:1000px;}
+header .con .logo{ margin-top:22px;}
+header .con ul{ margin-left: 83px;}
+header .con ul li{ float: left; line-height: 90px; font-size: 14px; text-align: center;}
+header .con ul li a{ color: #444444; display: block; /*padding: 0 31px;*/ width: 90px; height: 90px;}
+header .con ul li a:hover{ background:#1ab4c3; color: #fff;}
+header .con ul li.on{ background: #1ab4c3;}
+header .con ul li.on a{ color: #fff;}
+/*header*/
+.banner{ width: 100%;}
+.banner_con{ height: 330px; min-width: 1000px; margin: 0 auto; position: relative;}
+.banner_con img{ position: absolute; left:50%; margin-left: -1000px;}
+/*banner*/
+
+.unit_wrapper{ width: 100%;}
+.unit{ padding: 50px 0 6px 0;}
+.unit .title{ text-align: center;}
+.unit .title h3{ font-size: 32px; color:#1ab4c3; line-height: 50px;}
+.unit .title p{ font-size: 16px; color:#c3c3c3; font-family: Arial; margin-bottom: 53px; text-transform:uppercase;}
+.unit dl{ width: 176px; text-align: center; float: left; margin: 0 30px 36px 0;}
+.unit dl:nth-of-type(5n){ margin-right: 0;}
+.unit dl dt{ width: 174px; height: 88px; border: 1px #e4e5e5 solid; overflow: hidden;}
+.unit dl dd{ font-size: 14px; color: #2e2e2e; padding-top: 10px;}
+/*unit*/
+
+.join_wrapper{ width: 100%; background: #f0f3f6;}
+.join{ padding: 35px 0 96px 0;}
+.join .title{ text-align: center;}
+.join .title h3{ font-size: 32px; color:#1ab4c3; line-height: 50px;}
+.join .title p{ font-size: 16px; color:#c3c3c3; font-family: Arial; text-transform:uppercase;}
+.join .join_con{ width: 1000px; text-align: center; overflow: hidden;}
+.join .join_con p{ font-size: 20px; color: #1ab4c3; width: 531px;margin: 0 auto; overflow: hidden;}
+.join .join_con dl dt{ width: 168px; height: 168px;  margin: 0 auto;}
+.join .join_con dl dd{ font-size: 14px; color: #666; line-height: 30px;}
+.join .join_con dl dd:nth-of-type(1){ font-size: 20px; color: #333; margin: 13px 0 6px 0;}
+/*join*/
+
+.contact_wrapper{ background: #fff; width: 100%; overflow: hidden;}
+.contact{ padding: 79px 0 100px 0;}
+.contact h3{ clear: both; font-size: 16px; color: #1ab4c3; text-align: center;}
+.contact dl{ text-align: center; width: 156px; float: left; margin: 0 19px 60px 123px;}
+.contact dl dt{ width: 110px; height: 110px; border:3px #fff solid; border-radius: 50%; overflow: hidden; margin: 0 auto;}
+.contact dl dd{ font-size: 14px; line-height: 22px; color: #666; margin-top: 20px;}
+
+/*contact*/
+
+footer{ background:#1ab4c3; width: 100%;  overflow: hidden;}
+.footer_con{ padding: 55px 0 105px 0;}
+.footer_con .left h4 { line-height: 12px; padding-bottom: 6px;}
+.footer_con .left h4 a,.footer_con .left p{ color: #fff; }
+.footer_con .left h4 a:hover{ color: #147c8f; text-decoration: underline;}
+.footer_con .left h4 span{ width: 1px; height: 11px; background: #fff; display: inline-block; vertical-align: -1px; margin: 0 11px;}
+.footer_con .right dl dd{ margin-left: 6px;}
+.footer_con .right dl dd h4{ font-style:italic; color: #fff; line-height: 12px;}
+.footer_con .right dl dd p{ font-style:italic; color: #fff; font-size: 20px;}
+.footer_con .right dl dt span{ background: url(../images/icon.png) -36px 0 no-repeat; width: 34px; height: 34px; display: inline-block;}
